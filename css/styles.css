@@ -37,6 +37,10 @@ ul {
     color: var(--accent-color)
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 /* Contacts */
 .contacts .link {
     color: var(--secondary-text-color)
