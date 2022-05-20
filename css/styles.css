@@ -1,3 +1,82 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3  #FFFFFF*/
+/* цвет текста с прозрачностью rgba(255, 255, 255, 0.6) */
+/* цвет фона #FFFFFF */
+/* второй цвет фона #2F303A */
+/* третий цвет фона #F5F4FA */
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+
 body {
-    background-color: tomato;
+    background-color:#FFFFFF ;
+    color:var(--primary-text-color)
+}
+
+.logo {
+    color: var(--accent-color)
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* Site-nav */
+.site-nav .link {
+    color: var(--primary-text-color)
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+
+/* Contacts */
+.contacts .link {
+    color: var(--secondary-text-color)
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color)
+}
+
+/* Hero */
+.hero-title {
+    color: tomato;
+}
+
+/* Section */
+.section .title {
+    color:var(--primary-text-color)
+}
+
+/* Features */
+.feature-list .title {
+    color: var(--primary-text-color)
+}
+
+.desc {
+    color: var(--secondary-text-color)
+}
+
+/* Examples */
+.work-list .title {
+    color: var(--primary-text-color);
+}
+
+/* Button */
+.button, .button-list .button-all {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.button-list .button {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
 }
