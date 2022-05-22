@@ -12,6 +12,7 @@
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
     --white-color:#FFFFFF;
+    --black-color:#000000;
 
 /* цвета фонов */
     
@@ -45,6 +46,7 @@ body {
         font-size: 26px;
         line-height: 1.2;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
 }
 
 .logo {
@@ -53,10 +55,11 @@ body {
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
+        text-decoration: none;
 }
 
 .black {
-    color: #000000;
+    color: var(--black-color);
 }
 
 .white {
@@ -71,6 +74,7 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -85,6 +89,7 @@ body {
 /* Contacts */
 .contacts .link {
     color: var(--secondary-text-color);
+    text-decoration: none;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -125,13 +130,11 @@ body {
         text-transform: uppercase;
 }
 
-p {
-    color: var(--secondary-text-color);
-}
 .desc-feature {
     font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
+        color: var(--secondary-text-color);
 }
 
 /* Command */
@@ -150,6 +153,7 @@ font-weight: 500;
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
 }
 
 /* Examples */
@@ -159,12 +163,15 @@ font-weight: 500;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+        text-decoration: none;
 }
 
 .text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
+        text-decoration: none;
+        color: var(--secondary-text-color);
 }
 
 /* Button */
@@ -178,6 +185,7 @@ font-weight: 500;
         align-items: center;
         text-align: center;
      letter-spacing: 0.06em;
+     cursor: pointer;
 }
 
 .button-hero:hover,
@@ -196,6 +204,7 @@ font-weight: 500;
 
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .button-list .button:hover,
@@ -207,15 +216,18 @@ background-color: var(--accent-color);
 .button {
     font-family: inherit;
 }
+
 /* Futer */
 .footer-brg {
     background-color: var(--background-color-footer-hero);
 }
+
 .address-list .street {
     color:var(--white-color);
     font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
+        text-decoration: none;
 }
 
 .address-list .e-mail, .tel {
@@ -223,6 +235,7 @@ background-color: var(--accent-color);
     font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
+        text-decoration: none;
 }
 
 .address-list .street:hover,
